@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Ola from Express!')
 })
 
-app.get('about', (req, res) => {
+app.get('/about', (req, res) => {
   res.send('About Page')
 })
 
